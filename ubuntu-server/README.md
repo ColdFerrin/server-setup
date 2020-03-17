@@ -4,7 +4,7 @@
 
 1. Download ubuntu server from cannonical
 1. Install ubuntu server from cannoncial
-1. Create user with name `katz` and password `sana1234`
+1. Create user with name `xxxx` and password `xxxxxxxx`
 
 ## 1. If wifi is needed Install wifi drivers
 
