@@ -1,11 +1,11 @@
 network:
   version: 2
   ethernets:
-    <eth0>:       # Replace with ethernet device name
+    <eth0>: # Replace with ethernet device name
       dhcp4: yes
       dhcp6: no
   wifis:
-    wlp2s0b1:
+    <wlan0>: # Replace with wifi device name
       dhcp4: yes
       dhcp6: no
       access-points:
