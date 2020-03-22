@@ -26,7 +26,7 @@
 1. Create net rules file 
    1. Create file at `/etc/udev/rules.d/` called `70-persisten-net.rules`
 2. Add rules to file in format shown below
-   1. `SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="xx:yy:zz:aa:bb:cc", NAME="xxxx"
+   1. `SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="xx:yy:zz:aa:bb:cc", NAME="xxxx"`
    2. Replace "xx:yy:zz:aa:bb:cc" With actual mac address, and xxxx in name with desired device name
 3. Edit `/etc/default/grub` 
    1. change `GRUB_CMDLINE_LINUX=""` to `GRUB_CMDLINE_LINUX="net.ifnames=0 biosdevname=0"`
